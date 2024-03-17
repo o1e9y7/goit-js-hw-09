@@ -87,7 +87,7 @@ const marcupImages = images.map(({ preview, original, description }) =>
 gallery.insertAdjacentHTML("afterbegin", marcupImages);
 
 
-const lightbox = new SimpleLightbox('.gallery a', {
+ new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
 });
